@@ -1,6 +1,6 @@
 ---
 title: 搭建基于github pages的博客
-description: 搭建基于github pages的博客，需要使用到
+description: 搭建基于github pages的博客， github上新建用户仓库  1.申请github账号（忽略）2.新建 “你的账号.github.io”仓库
 categories:
  - 环境搭建
 tags:
@@ -9,11 +9,11 @@ tags:
 ---
 
 
-# github上新建用户仓库
-1. 申请github账号（忽略）
+# github上新建用户仓库
+1. 申请github账号（忽略）
 2. 新建 “你的账号.github.io”仓库
 
-# 安装Jekyll(非必须)
+# 安装 Jekyll(非必须)
 
 ## 安装ruby
 
@@ -30,18 +30,18 @@ gem install --user-install bundler jekyll
 source ~/.bash_profile
 ```
 
-详细步骤参考 [https://jekyllrb.com/docs/installation/macos/](https://jekyllrb.com/docs/installation/macos/)
+ 详细步骤  参考 [https://jekyllrb.com/docs/installation/macos/](https://jekyllrb.com/docs/installation/macos/)
 
-# 运行 HelloWord
+#   运行 HelloWord
 
-## 克隆github上的仓库到本地
+  ## 克隆github上的 仓库到本地
 ```shell
 git clone https://github.com/你的账号/你的账号.github.io.git
 ```
 
-## 初始化jekyll工作目录
+ ## 初始化jekyll工作目录
 
-切换到刚刚检出的github仓库目录下，执行：
+切换到刚刚检出的github仓库目录下，  执行：
 ```shell
 jekyll new myblog
 mv myblog/* ./ 
@@ -61,7 +61,7 @@ bundle exec jekyll serve
 
 # 使用第三方主题
 
-可以根据自己的喜好去找个主题样式，让博客更加漂亮，随便搜到几个，仅供参考。
+ 可以根据自己的喜好去找个主题样式，让博客更加漂亮，随便搜到几个，仅 供参考。
 - [https://github.com/topics/jekyll-theme]\(https://github.com/topics/jekyll-theme)
 - [http://jekyllthemes.org](http://jekyllthemes.org)
 
