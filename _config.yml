@@ -380,7 +380,7 @@ baidu_analytics: ff49038a172fa9e3172e79cc02003f55
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: adusir
   count: true
   # hide comments (visitors need to click to load the comments)
