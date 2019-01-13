@@ -41,8 +41,7 @@ post:
     author: 本文作者
     link: 本文链接
     license_title: 版权声明
-    license_content: '本博客所有文章除特别声明外，均采用
-      <a href="%s" rel="external nofollow" target="_blank">%s</a> 许可协议。转载请注明出处！'
+    license_content: '本文为原创，如需转载，请联系本文作者。'
 
 page:
   totally: 共有

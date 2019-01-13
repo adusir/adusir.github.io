@@ -2,7 +2,7 @@
   <ul class="post-copyright">
     <li class="post-copyright-author">
       <strong>{{ __.post.copyright.author | append: __.symbol.colon }}</strong>
-      {{ site.author }}
+      <a href="mailto:dev@adusir.work">{{ site.author }}</a>
     </li>
     <li class="post-copyright-link">
       <strong>{{ __.post.copyright.link | append: __.symbol.colon }}</strong>
@@ -10,7 +10,7 @@
     </li>
     <li class="post-copyright-license">
       <strong>{{ __.post.copyright.license_title | append: __.symbol.colon }} </strong>
-      {{ __.post.copyright.license_content | replace_first: '%s', site.post_copyright.license_url | replace_first: '%s', site.post_copyright.license }}
+      {{ __.post.copyright.license_content }}
     </li>
   </ul>
 {% endif %}
