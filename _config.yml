@@ -593,6 +593,11 @@ local_search:
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
 
+search:
+  path: search.json
+  field: post
+  limit: 10000
+
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
