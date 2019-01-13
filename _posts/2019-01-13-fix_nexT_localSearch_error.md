@@ -28,15 +28,15 @@ tags:
 
 # 解决方法
 
-本地打开markdown文件发现，有一些控制字符，导致其解析出错；问题找到了，思路也就出来了，有两种方式：第一个方式是把xml中的控制字符修改掉(修改 ` /search.xml ` 或者修改` /_includes/third_party/search/localsearch.html `)，另一个是把搜索数据源由xml格式改为json格式；详细介绍第二种修改数据源的方式。
+本地打开markdown文件发现，有一些控制字符，导致其解析出错；问题找到了，思路也就出来了，有两种方式：第一个方式是把xml中的控制字符修改掉(修改`/search.xml` 或者修改` /_includes/third_party/search/localsearch.html `)，另一个是把搜索数据源由xml格式改为json格式；详细介绍第二种修改数据源的方式。
 
 ## localsearch的数据源由xml改为json
-1. 打开 ` /_config.yml ` ，在添加如下配置：
+1. 打开`/_config.yml`，在添加如下配置：
 ```yaml
 search:
   path: search.json
 ```
-2. 在根目录下新建` search.json `, 内容如下:
+2. 在根目录下新建` search.json `, 内容如下: {% raw %}
 ```json
 ---
 layout: null
@@ -51,4 +51,5 @@ sitemap: false
   {% endfor %}
 ]
 ```
+{% endraw %}
 3. 重启Jekyll，此问题解决
