@@ -1,18 +1,26 @@
-<!DOCTYPE HTML>
-<html>
+---
+---
+
+
+<!doctype html>
+<html class="{{ html_class | downcase }}" lang="{{ site.language }}">
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="robots" content="all" />
-  <meta name="robots" content="index,follow"/>
-  <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css">
+  <title>404 未找到相关页面</title>
 </head>
-<body>
-  <script type="text/plain" src="http://www.qq.com/404/search_children.js"
-          charset="utf-8" homePageUrl="/"
-          homePageName="回到我的主页">
-  </script>
-  <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
-  <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}">
+  <div >
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+              <center><h1>4 0 4</h1></center>
+                <br/>
+              <center>没有找到相关页面，请<a href="/" title="首页">返回首页</a></center>
+          </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
+
