@@ -34,12 +34,12 @@ source ~/.bash_profile
 
 #   运行 HelloWord
 
-  ## 克隆github上的 仓库到本地
+## 克隆github上的 仓库到本地
 ```shell
 git clone https://github.com/你的账号/你的账号.github.io.git
 ```
 
- ## 初始化jekyll工作目录
+## 初始化jekyll工作目录
 
 切换到刚刚检出的github仓库目录下，  执行：
 ```shell
@@ -62,6 +62,6 @@ bundle exec jekyll serve
 # 使用第三方主题
 
  可以根据自己的喜好去找个主题样式，让博客更加漂亮，随便搜到几个，仅 供参考。
-- [https://github.com/topics/jekyll-theme]\(https://github.com/topics/jekyll-theme)
+- [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 - [http://jekyllthemes.org](http://jekyllthemes.org)
 
