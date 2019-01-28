@@ -48,6 +48,7 @@ VMware.PowerCLI安装官方指导见[https://www.powershellgallery.com/packages/
     ``` shell
     .\ESXi-Customizer-PS-v2.6.0.ps1 -v67 -vft -load net55-r8168
     ```
+    
 ## 制作启动U盘
 
 1. 下载 rufus,地址：[https://github.com/pbatard/rufus/releases/download/v3.4/rufus-3.4p.exe](https://github.com/pbatard/rufus/releases/download/v3.4/rufus-3.4p.exe)
